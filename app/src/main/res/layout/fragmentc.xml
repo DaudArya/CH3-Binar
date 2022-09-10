@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10sp"
+        android:rowCount="3"
+        android:columnCount="2">
+
+        <Button
+            android:id="@+id/Cantik"
+            android:layout_gravity="fill"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Cantik" />
+        <Button
+            android:id="@+id/Cakar"
+            android:layout_gravity="fill"
+            android:layout_margin="3dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Cakar" />
+        <Button
+            android:id="@+id/Cari"
+            android:layout_gravity="fill"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Cari" />
+        <Button
+            android:id="@+id/Cara"
+            android:layout_gravity="fill"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Cara" />
+        <Button
+            android:id="@+id/Cokelat"
+            android:layout_gravity="fill"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Cokelat" />
+        <Button
+            android:id="@+id/Cawan"
+            android:layout_gravity="fill"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Cawan" />
+
+
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

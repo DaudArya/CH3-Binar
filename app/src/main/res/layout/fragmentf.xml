@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10sp"
+        android:rowCount="3"
+        android:columnCount="2">
+
+        <Button
+            android:id="@+id/Fasilitas"
+            android:layout_gravity="fill"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Fasilitas" />
+        <Button
+            android:id="@+id/Fantasi"
+            android:layout_gravity="fill"
+            android:layout_margin="3dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Fantasi" />
+        <Button
+            android:id="@+id/Fakultas"
+            android:layout_gravity="fill"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Fakultas" />
+        <Button
+            android:id="@+id/Film"
+            android:layout_gravity="fill"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Film" />
+        <Button
+            android:id="@+id/Faktur"
+            android:layout_gravity="fill"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Faktur" />
+        <Button
+            android:id="@+id/Formal"
+            android:layout_gravity="fill"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Formal" />
+
+
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

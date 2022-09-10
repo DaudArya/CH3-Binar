@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10sp"
+        android:rowCount="3"
+        android:columnCount="2">
+
+        <Button
+            android:id="@+id/Dada"
+            android:layout_gravity="fill"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Dada" />
+        <Button
+            android:id="@+id/Diam"
+            android:layout_gravity="fill"
+            android:layout_margin="3dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Diam" />
+        <Button
+            android:id="@+id/Dalam"
+            android:layout_gravity="fill"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Dalam" />
+        <Button
+            android:id="@+id/Dampak"
+            android:layout_gravity="fill"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Dampak" />
+        <Button
+            android:id="@+id/Dasar"
+            android:layout_gravity="fill"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Dasar" />
+        <Button
+            android:id="@+id/Dilema"
+            android:layout_gravity="fill"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Dilema" />
+
+
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

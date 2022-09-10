@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10sp"
+        android:rowCount="13"
+        android:columnCount="2">
+
+        <Button
+            android:id="@+id/Ayam"
+            android:onClick="Ayam"
+            android:layout_gravity="fill"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Ayam" />
+        <Button
+            android:id="@+id/Akal"
+            android:layout_gravity="fill"
+            android:layout_margin="3dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Akal" />
+        <Button
+            android:id="@+id/Air"
+            android:layout_gravity="fill"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Air" />
+        <Button
+            android:id="@+id/Amarah"
+            android:layout_gravity="fill"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Amarah" />
+        <Button
+            android:id="@+id/Asal"
+            android:layout_gravity="fill"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Asal" />
+        <Button
+            android:id="@+id/Azab"
+            android:layout_gravity="fill"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Azab" />
+        <Button
+            android:id="@+id/Alam"
+            android:layout_gravity="fill"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Alam" />
+        <Button
+            android:id="@+id/Asih"
+            android:layout_gravity="fill"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Asih" />
+        <Button
+            android:id="@+id/Ajar"
+            android:layout_gravity="fill"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Ajar" />
+        <Button
+            android:id="@+id/Aksi"
+            android:layout_gravity="fill"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Aksi" />
+        <Button
+            android:id="@+id/Atap"
+            android:layout_gravity="fill"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Atap" />
+        <Button
+            android:id="@+id/Akhir"
+            android:layout_gravity="fill"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Akhir" />
+
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
